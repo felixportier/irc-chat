@@ -1,0 +1,174 @@
+
+
+.chatContainer{
+    padding: 10px;
+    flex-direction: column;
+    display:flex;
+    background-color: #1f1f3f;
+    width: 100%;
+    height: 100vh;
+}
+
+.homeContainer{
+    padding: 100px;
+    
+    flex-direction: column;
+    display:flex;
+    background-color: #1f1f3f;
+    width: 100%;
+    height: 100vh;
+}
+
+.label{
+    padding: 5px;
+    font-weight: 600;
+    font-size: larger;
+    color: white;
+}
+.input{
+    height: 50px;
+    border: none;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+.btnInput {
+    color: white;
+    background-color:  rgb(61, 4, 153);
+    width: 50%;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    
+}
+.btnInput:hover{
+    background-color:rgb(37, 5, 88);
+}
+.form{
+    padding: 50px;
+}
+
+.row{
+    display: flex;
+}
+
+.msgList{
+    list-style-type: none;
+    padding: 0; 
+    margin: 0;
+}
+
+.chatBox{
+    overflow-y: auto;
+    padding: 5px;
+    width: 100%;
+    height: 75vh;
+    border-radius: 5px;
+    padding-left: 20px;
+    background-color: rgb(20, 20, 20);
+    box-shadow: 5px 5px 5px rgba(10, 10, 10, 0.726);
+}
+
+.msgInput{
+    border-radius: 10px;
+    width: 80%;
+    color: white;
+    background-color: rgb(20, 20, 20);
+    border: none;
+    height: 50px;
+    box-shadow: 5px 5px 5px rgba(10, 10, 10, 0.726);
+}
+
+.send{
+    background-color:  rgb(61, 4, 153);
+    color:white;
+    font-size: larger;
+    border: none;
+    width: 15%;
+    margin-left: 25px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgba(10, 10, 10, 0.726);
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.send:hover{
+    background-color:rgb(37, 5, 88);
+}
+
+.quitBtn{
+
+    font-size: 20px;
+    width: 50%;
+    height: 50%;
+    border-radius:15px;
+    background-color: tomato;
+    border: none;
+    color: white;
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 3px 3px 3px rgba(10, 10, 10, 0.726);
+    
+    
+}
+.quitBtn:hover{
+    background-color: red;
+}
+
+label {
+    color: black;
+}
+
+header {
+    text-align: center;
+	padding: 20px;
+}
+
+.chatTitle{
+    text-align: center;
+    color: white;
+    padding: 25px;
+}
+
+.col{
+    flex: 5;
+    padding: 10px;
+}
+
+
+
+.colusers{
+    flex:0.1;
+    width:10vw;
+    padding: 10px;
+}
+.colQuit{
+    flex:0.1;
+    padding: 10px;
+    text-align: right;
+}
+
+.messageElement{
+    font-weight: 600;
+    color: white;
+}
+
+.channelElement{
+    font-weight: 600;
+    color: rgb(57, 5, 155);
+}
+.coUsersList{
+    color: white;
+    font-weight: 700;
+    overflow-y: auto;
+}
+.usersTitle {
+    font-size: 20px;
+    color: white;
+}
+

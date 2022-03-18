@@ -1,0 +1,13 @@
+div[name="homepage"]{
+    background-color: black;
+    border-radius: 10px;
+}
+
+label {
+    color: black;
+}
+
+header {
+    text-align: center;
+	padding: 20px;
+}
